@@ -32,7 +32,11 @@ perm_temp_files = ["RX, R"]
 sdos_exe = "RUN sdos.exe from run.ini"
 run_ini = "MOV A, 5      ; let A = 5MOV B, 10     ; let B = 10ADD A, B      ; A = A + B PRINT A       ; output: 15"
 simple_sd = "print hello, del h.exe, perm, ver, exit"
+#indonesia
 important_txt = "Proyek ini diberhakkan atas nama 7.2 sebagai pembuatan bahasa pemrograman simpel untuk SMP Santo Tarsisius kami berhak dan mendapatkan layaknya gak mengembangkan projek ini lebih lanjut itu aja dari saya ©2026 SDOS | Skeleton"
+
+# English Version for International Contributors
+copyright_notice = "This project is authored by Grade 7.2 for a simple programming language project at Santo Tarsisius Junior High. ©2026 SDOS | Skeleton"
 win_bt = """@echo off
 REM Mini SDOS Batch Script
 echo Running SDOS Boot Tasks...
